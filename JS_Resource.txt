@@ -121,8 +121,34 @@ To itrate over an array
 3] foreach()  method ===> return the element and index of the array and it ignores the empty element
 4] for_in loop ==> returns the index of an array and  ignores the empty element
 
+git from command line:
+
+	git init ===>used to initialize an empty repo  (.git)
+	git add <fileName>==> to add a specific file from unstaged area to a staged area
+	git status ===> used to get the current status of the local repo
+	git add .   ===> used to add all the files from unstagd area to staged area
+	git rm --cached <fileName> ===> used to remove a specific file from staged area to unstaged area
+	git commit -m "commit msg" ====> commitng/saving the changes in staged area
+	git remote add <variableName> <url of rempote repo>===> used to assign the url of remote repo to a reference variable
+	git push <url_of_global_repo> <branch_name> ===> used to push the code from local repo to global repo
+	git branch ===> lists you the branches present in the repo
+	git branch <branchName> ===> used to create a new branch in global repo
+	git checkout <branchName> ===> used to switch control to specified branch
+	git log====>
+	git config --list===>
+	
+
 # objects:
 	any entity having states/properties and behaviors/values
+
+To declare an object in javascript there are different ways:
+1] object literal syntax
+2] using new Object() keyword
+3] using ibject.create() method
+4] using constructor function
+5] using class(es6 feature)
+
+
 
 
 
