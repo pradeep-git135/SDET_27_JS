@@ -1,0 +1,140 @@
+JAVASCRIPT:
+INTRODUCTION:
+	#]javscript is an interpreted programming language and as_well as a scripting language
+	#]javascript is dynamicaly typed language (no need to specify the datatype of the value explicitly to be stored)
+	#]javascript is case sensitive
+interpreted : javascript engine uses interpreter for code conversion
+
+uses of js:
+	#] it is used to develop an interactive or dynamic web pages
+	#] it is also used for basic client side validation(e.g email validation, debitcard validations, etc..)
+
+JS Engine:
+	each and every browser has js_engine
+	Browser			JS_Engine
+	1] chrome 	 	v8
+	2]mozillaFirefox	spider Monkey
+	3]ie 			chakra
+	4]safari 		javascriptCore
+
+libraries built by using javascript:
+	block of optimal code used to perform a specific task 
+	30 lines of jsCode and then i had wrapped it into a 3 lines of a single library to perform a task
+
+	1] jQuery 2]loadAsh 3]bootstrap 4] _js  etc...
+
+frameWork:
+	collection of libraries
+	1] NodeJs: server side programming
+ 2]ReactJS: one can develop any kind of web applications
+ 3]ReactNative: develop native mobile applications both in android and IOS
+ 5] ElectronJS: develop the standalone applucations e.g, calculater , notepad etc..
+ 6]tensorFlow: ml and ai
+ 7] AngularJS: single page applications e.g. google maps, gmail etc...
+
+execution of javascript code:
+	1] on browser:[ctrl+shift+i] ==> dev_tools tab
+			* just open any browser and got to console panel and write js_code and execute it
+			* you have to embed your js_code in html
+
+			#how to embed the js_code inside the HTML
+				1] inline embed :
+					here we will make use of <script></script> tag
+				2] external embed
+					here we will make use of <script src="path of your .js file"></script> tag
+
+	2] off browser:[NodeJS]   cmd promt node <file path>
+		here we will make use of NodeJS
+
+due to unavailability of autocompleteness and intellisense we go for IDE's
+we will use vs code as an IDE
+
+IDE ==> integrated development environment 
+
+Tokens:
+	the smallest part/unit of the code is called token
+
+javascript tokens are classified into:
+1]keywords:
+	programmer defined words which had a predefined meaning in it e.g  if, for, while, do while
+2]identifiers:
+	user defined words user if going to set the value for those words or named memory block
+		e.g. var a = 10; a identifier
+	rule to use identifier:
+		* it can be alfanumeric  var a2 = "hello"
+		* it shouldn't start with numeric  2a = "15" ==> false
+		* it can start with only special charectors "_" or  "$"   e.g. _a = 25; $a = "message";  viceversa
+3]literals:
+	the actual values that you are going to store in the memory / datatypes
+4]operators: 
+	used to perform opperations on oppeerands
+	1] arithmatic operators[+, -, *, /, %]
+	2] comparision/Relational operators[==(equal), ===(identical), >, <, <=, >=]
+	3] bitwise[$, |, ~]
+	4] logical[$$, ||, !]
+	5] assignment operators[=, +=, -=, *=, /=, %=]
+	6] special operators[type(), ternary(?:), in, instenseof, ....]
+5]separetors :
+	[(), {}, [], ;]
+
+#]how to declare a veriable in javacsript:[var, let, const]
+	var x; ===> declaration   let y = 10; const p = "global"
+	x  = 5 ==> initialization
+	log(x) ===> utilization
+
+	var x = 5;  ===> declaration and initialization
+
+# datatypes:
+	* primitive datatype:
+		String, number, boolean, undefined, null
+	* non premitive/reference type datatype:
+		objects, array, functions, 
+
+ flow control statements[if, if else, if else if, switch] and looping statements[for, while, do while]
+
+#]comparision operator
+ ==(double equalsto)  ===> check  the value of operands
+  ===(triple equalsto)   ====> checks for both value ans as well as datatype of the operands
+
+#functions:  it's a block of code which performs a specific task, mainly developed for reuseability
+we can write the functions in different ways:
+	1]function declaration:
+		syntax:
+			function(keyword) name_of_the_function (parameters) {
+				//statement block//
+			}
+			name_of_the_function(arguments)
+	2]function expression
+	3]immidiatly invokable functions[iif]
+	4]Arrow function[es6 feature]
+
+#array:
+	array in js is used to store multiple values[heterogenious]
+
+how to declare an array in js:
+	1] var ar1 = new Array("value1", "value2", .......) //it is not recommended
+	2] var arr2 = ["value1", "value2", .......]
+
+To itrate over an array
+1]for loop ===> returns the index of an array and doesn't ignores the empty element
+2] for of loop ===> returns the element of an array and doesn't ignores the empty element
+3] foreach()  method ===> return the element and index of the array and it ignores the empty element
+4] for_in loop ==> returns the index of an array and  ignores the empty element
+
+# objects:
+	any entity having states/properties and behaviors/values
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
