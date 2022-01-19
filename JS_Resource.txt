@@ -134,10 +134,46 @@ git from command line:
 	git branch ===> lists you the branches present in the repo
 	git branch <branchName> ===> used to create a new branch in global repo
 	git checkout <branchName> ===> used to switch control to specified branch
-	git log====>
-	git config --list===>
+	git log====> log the commit history
+	git config --list===> lists all the configurations of git in your local machine
 	
+#programm execution in memory:[variable hoisting/ function hoisting]
+ * whenever you executed your javascript code, a global execution context(memory) will get created
+ * inside the global context global object will get created by name "window"
+ * along with window object global variable get created by name "this"
+ * in the global levell object and variable are equal i.e, window == this
+ * later it will create 2 phases 1] creation_phase 2] execution_phase
+ * in creation phase separate memory will be created for the entire code 
+	and by default undefined will be assigned as a value for the created memory
+ * then in execution phase line by line execution occurs and actual value of the code will be assigned 
+	to the memory by overriding the undefined value
+	
+#] callback functions:
+	passing a function reference to other function and invocking the same inside the other function is called callback function
+#] closure property:
+	inner function still having an access on the variable that had been declared in outer funcction
+	even after the execution of outer function
 
+#] this keyword:
+	the value of this keyword depends on the area where it has beed used or called
+	this = window ====> in global levell
+	this = object ====> in object levell
+
+#] call(), bind(), apply():
+	they are inbuilt methods which can  be used along with the functions using which we can set the value of this keyword
+
+	call(obj_ref, optinalParams(separated by ,))==> it will accept object reference as a parameter and sets the value for this keyword and executes the function
+		function barrowing:
+				deriving the function from one object to other is called function barrowing
+				function barrowing can be achived by call()
+
+	bind(obj_ref, optinalParams(separated by ,))==>it will accept object reference as a parameter and it will create a separate copy of the function
+							 sets the value for this keyword and returns the entire function
+		function currying:
+				it can be achived by bind() method, where we can pass the params in two different stages
+	
+	apply(obj_ref, array_of_params)===> working of apply() is similer to call() the only difference is it will accepts the params in the form of an array
+	
 # objects:
 	any entity having states/properties and behaviors/values
 
