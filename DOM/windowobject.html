@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window_object</title>
+</head>
+<body>
+
+    <p>hello all welcome to the BOM</p>
+
+    <button onclick="amazon.close()">clickToClose</button>
+
+    <script>
+        // window.alert("this alert is from window object")
+        // alert("even i can call alert alone")
+
+        // window.confirm("you have entered window object")
+        // confirm("you have entered window object from confirm")
+
+        // var info = prompt("enter your employe id")
+        // document.write(info)
+        var amazon = open("https://www.amazon.in/")
+
+        setTimeout(function () {
+            amazon.close()
+        }, 3000)
+
+        
+        document.writeln("innerHeight of the window is "+window.innerHeight);
+        document.writeln("innerWidth of the window is "+window.innerWidth);
+        document.write("outerHeight of the window is "+window.outerHeight);
+        document.write("outerWidth of the window is "+window.outerWidth);
+
+        console.log("innerHeight of the window is "+window.innerHeight);
+        console.log("innerWidth of the window is "+window.innerWidth);
+        console.log("outerHeight of the window is "+window.outerHeight);
+        console.log("outerWidth of the window is "+window.outerWidth);
+
+
+        
+
+
+
+    </script>
+    
+</body>
+</html>
+
