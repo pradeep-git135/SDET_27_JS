@@ -105,13 +105,13 @@ we can write the functions in different ways:
 			}
 			name_of_the_function(arguments)
 	2]function expression
-	3]immidiatly invokable functions[iif]
+	3]immediatly invokable functions[iif]
 	4]Arrow function[es6 feature]
 
 #array:
 	array in js is used to store multiple values[heterogenious]
 
-how to declare an array in js:
+	#]how to declare an array in js:
 	1] var ar1 = new Array("value1", "value2", .......) //it is not recommended
 	2] var arr2 = ["value1", "value2", .......]
 
@@ -178,14 +178,50 @@ git from command line:
 	any entity having states/properties and behaviors/values
 
 To declare an object in javascript there are different ways:
-1] object literal syntax
+
+1] object literal syntax:
+	syntax:
+		var obj_refName = {property1:value1,property2:value2}  values can be of any datatype
+
 2] using new Object() keyword
-3] using ibject.create() method
-4] using constructor function
-5] using class(es6 feature)
+	syntax:
+		var obj_refName = new Object()  //declaration
+		obj_refName.property_name = value  //initialization
+
+3] using object.create() method ==> it will create an empty object with the prtotype of inheritted object
+	syntax:
+		var objName = Object.create(obj_ref)
+		
+	prototype_Object => each and every object in javascript is derived/inherited from the base object called prototype
+
+4] using constructor_function:
+	syntax:
+		function name_of_function(){
+			//declare the properties
+		}
+	prototype_property of constructor function:
+		prototype keyword, it is property each and every javascript object has that property but it is accessed only 
+		the object that had been created from the constructor function
+		using prototype_property one can modify the constuctor function
+	
+5] using class(es6 feature):
+	syntax:
+		class name_obj {
+			constructor(){
+				//declare variables
+			}
+		}
+
+note:  	#]__proto__ is used to inherit the properties from one object to another object
+	#] javascript fallows prototypel inheritence(every object in javascript is derived from base object i.e, Prototype
+	
+#] bom
+#] dom
+#] predefined objects
+#] es6 features
 
 
-
+webdriverIO :
 
 
 
