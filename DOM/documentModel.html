@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="qsp" class="class_qsp" name="anyname">Qspiders</h1>
+    <h1 id="jsp" class="class_qsp">Jspiders</h1>
+    <h1 id="ty" class="class_qsp" name="nty">TestYantra</h1>
+
+    <div id="tp">
+        <p>this is a paragraph </p>
+    </div>
+    <script>
+        var atag = document.createElement("a");
+        atag.textContent = "youtube"
+        atag.href = "https://www.youtube.com/";
+        atag.style.textDecoration = "none"
+        atag.style.color = "red"
+        atag.style.fontSize = "50px"
+        // console.log(atag);
+         // document.body.appendChild(atag)     //adding the element at the end
+        //  document.body.insertBefore(atag, qsp)  // adding the element to the specific location
+
+        console.log("before modification");
+
+        var qsp = document.getElementById("qsp");
+
+      
+        // console.log(qsp);
+
+       
+
+//accessing elements
+
+        //by id
+    //    console.log(document.getElementById("ty"));
+
+    //by classname
+       var elements = document.getElementsByClassName("class_qsp")
+    //    var elements = document.getElementsByClassName("class_qsp")
+    //    console.log(elements);
+
+    //by name
+    //   console.log(document.getElementsByName("nty")); 
+
+    //queryselector
+    //   console.log(document.querySelector("#jsp")); // css_selector id==>#
+    //   console.log(document.querySelector(".class_qsp"));   // css_selector class==> (dot). returns 1st matching element
+
+    //queryselectorAll    //returns all the matching element
+    //   console.log(document.querySelectorAll(".class_qsp"));  
+    
+    //tagName
+        //  var h1elements = document.getElementsByTagName("h1");
+    //   console.log(h1elements.length);
+
+    
+    //modify the elements
+    // qsp.textContent = "jspiders"
+    // qsp.innerHTML = "testyantra"
+    // qsp.innerText = "software testing"
+
+
+//innerhtml and innertext and textcontent
+//      var divelement = document.getElementById("tp")
+//      console.log(divelement.innerText);
+//      console.log("===================================");
+//      console.log(divelement.innerHTML);
+
+
+
+//get and set attribute
+    //         console.log(qsp.getAttribute("class")); 
+        //  console.log(qsp.getAttribute("id")); 
+    //         console.log("after modification");
+    //         qsp.setAttribute("class", "class_ty")
+    //         console.log(qsp.getAttribute("class")); 
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+    <p id="para">message</p>
+    <button id="btn">click</button>
+    <button id="btn2">doubleClickTOGetConfirmation</button>
+
+
+    <p id="dimension">dimensions</p>
+
+
+    <script>
+
+
+        var clickBtn = document.getElementById("btn")
+        clickBtn.addEventListener("click", events)
+        function events() {
+            alert("you clicked on the button")
+            document.getElementById("para").innerText = "you just clicked on clik buttn"
+        }
+
+        clickBtn.addEventListener("mouseover", displayalert);
+        function displayalert() {
+            alert("now you hovered on click element")
+        }
+
+        window.addEventListener("resize", displayDimensions)
+        function displayDimensions() {
+            document.getElementById("dimension").innerText ="innerHeight : "+ window.innerHeight+" "+
+                                                        "innerwidth : "+window.innerWidth+" "+
+                                                        "outerHeight : "+window.outerHeight+" "+
+                                                        "outerwidth : "+window.outerWidth
+        }
+
+        var dblclickelement = document.getElementById("btn2")
+        dblclickelement.addEventListener("dblclick", displaycinfirm)
+        function displaycinfirm() {
+            confirm("yopu just doubleclicked on the element")
+        }
+        dblclickelement.addEventListener("mouseout", sample);
+        function sample() {
+            alert("you mouseout on dblclick element")
+        }
+
+    </script>
+    
+</body>
+</html>

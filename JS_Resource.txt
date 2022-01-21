@@ -244,7 +244,13 @@ objects of window;
 		hash, host, hostName, href, protocol
 
 
-#] dom
+#] dom:
+	it is a platform/medium/interface consists of methods and properties, through which we can access and modify the html structure 
+
+#]events:
+	click,dblclick, mouseover, mouseout, resize...
+	
+<a href="url">youtube</a>
 #] predefined objects
 #] es6 features
 
