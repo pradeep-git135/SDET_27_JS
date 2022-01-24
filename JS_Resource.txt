@@ -250,12 +250,76 @@ objects of window;
 #]events:
 	click,dblclick, mouseover, mouseout, resize...
 	
-<a href="url">youtube</a>
-#] predefined objects
+#] predefined objects:
+	1] array:
+		#inbuilt methods:
+			1)array.concat(array_params):
+    				 Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+			2)array.push()
+			3)arry.unshift()
+			4)array.pop()
+			5)array.shift()
+			6)array.every()
+			7)array.some()
+			8)toString():returns a string representation of an array
+			9)array.reduse(callback_fxn):
+							callbackFunction accepts 4 different parameters (prevoius_value, current_value, currentIndex, array)
+							prevoius_value = 0,
+							converts the entire array into a single unit(traversing is from left_to_right)
+							Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+			10)array.reduseright(callback_fxn):
+						every thing works similer ti reduse() but traversing is from right_to_left
+			11)array.forEach(callback_fxn):
+						callbackFunction accepts 3 different parameters (element, index, array)
+						it will just perform the specified action/task by taking each element as an input
+			12)array.map(callback_fxn):
+						callbackFunction accepts 3 different parameters (element, index, array)
+						executes the given statements and returns the result in the form of an array
+						using map one can modify the given array
+			13)array.filter(callback_fxn):
+						callbackFunction accepts 3 different parameters (element, index, array)
+						it will return the result in the form of array only the value satisfies the condition
+						we can get the elements of an array by using filter(), but one can not modify the array
+			14)array.sort():
+				sort the given array in ascending order by default
+			15)array.revere():
+			16)array.slice(startindex, endindex)
+			17)array.splice(startindex, deleteCount, [array_of_new_elements_to_be_addeed])
+							
+	2] string
+	3] date
+	4] math
+
+	
 #] es6 features
 
 
 webdriverIO :
+
+
+
+
+
+
+
+i"ll start session at 4pm 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
