@@ -1,10 +1,37 @@
 
 var arr = [50,-20,40,-30,-10]
 
+// console.log(arr.reduce((positiveArr,element)=>{
+//     if (element>0) {
+//         positiveArr.push(element)
+//     }
+//     return positiveArr
+// },[]));
+
+// var info = [{fname:"pradeep", lname:"cr", age:25},{fname:"nitheesh", lname:"Gowda", age:24},{fname:"adarsh", lname:"m", age:24},{fname:"prakash", lname:"B K", age:27}]
+// console.log(info.reduce((nameArr,element)=>{
+//     if (element.age>24) {
+//         nameArr.push(""+element.fname+" "+element.lname)
+//     }
+//     return nameArr
+// },[]));        //[ 'pradeep cr', 'prakash B K' ]
+
+
+// console.log(info.reduce((refobj, element)=>{
+//     if (!(refobj[element.age])) {
+//         refobj[element.age] = 1
+//     }else{
+//         refobj[element.age]++
+//     }
+//     return refobj
+// },{}));
+// console.log(info.filter((element)=>{
+//     return element.age==24
+// }));
 // console.log(arr.slice(2));
 
-console.log(arr.splice(1,2,[2,4]));
-console.log(arr);
+// console.log(arr.splice(1,2,[2,4]));
+// console.log(arr);
 
 // console.log(arr.reverse());
 // console.log(arr instanceof Array);

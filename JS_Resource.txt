@@ -286,23 +286,52 @@ objects of window;
 			16)array.slice(startindex, endindex)
 			17)array.splice(startindex, deleteCount, [array_of_new_elements_to_be_addeed])
 							
-	2] string
-	3] date
-	4] math
+	2] string:
+	
+	3] date:
+	4] math:
 
 	
-#] es6 features
+#] ES6 features:[EcmaScript_6 ]:
+	ES6 considered as standered enhansement
+	
+features:
+	#] var, let, const
+		keyword indentifier = literal
+		var a = 5;
+	#hoisting:
+		* just like var the veriable declared by let, const are not hoisted
+		* you can only access let, const veriables only after initialization(else it will throw reference error)
+	#block scoping:
+		*  veriables declared by var keyword can be accessed anywhere 
+		*  veriables declared by let keyword are restricted within the scope i.e, you canot access outside of the block
+	
+note:
+	*Reference Error==> posibelities 
+				1] before declaration if you try to access var vriables 
+				2] before initialization of let, const veriables if you try to access
+	#] template literals:
+		log(` ${variable_ref}`)
+		
+	#] object and array destructuring:
+		deriving the properties of an object and element of an array and assigning it to a veriable is called object and array destructuring
+	#] spread and rest operator:[...]
+		... ==> as rest returns result in the form of an array nd you can use spread reference along with any normal veriable
+		... ==> as spread returns the result as elements and you can use spread reference along with array
+		
+	#] promises:
+		promise is similer to the realworld promise, it has 2 status resolve and reject
+	syntax:
+		
+		
+	#] arrow function
+	#] class
+	#] default parameter
+
 
 
 webdriverIO :
 
-
-
-
-
-
-
-i"ll start session at 4pm 
 
 
 
