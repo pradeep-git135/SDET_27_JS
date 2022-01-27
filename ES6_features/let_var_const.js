@@ -32,12 +32,12 @@
 // console.log(a);
 // console.log(x);                 //ReferenceError: x is not defined
 
-
-// for (var index = 0; index < 5; index++) {
-//     console.log(index);
-// }
-// console.log("===================================");
-// console.log(index);
+let index = 0
+for (; index < 5; index++) {
+    console.log(index);
+}
+console.log("===================================");
+console.log(index);
 
 // for (let index = 0; index < 5; index++) {
 //     console.log(index);
@@ -54,12 +54,21 @@
 
 // console.log(a);
 
-var a = 5;
 
-let x;
-console.log(x);
-function fun1() {
-    let x= 100
-}
-fun1()
-console.log(this.a);
+
+
+// var a = 50;
+// function fun1() {
+//     let x= 100
+//     var a = 5;
+// }
+// fun1()
+// // console.log(a);
+// let c;
+// const d=35;
+// {
+//     let c = 30;
+//     var b = 40;
+// }
+// let c = 45;
+// console.log(c);

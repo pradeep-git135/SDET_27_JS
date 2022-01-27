@@ -147,6 +147,19 @@ git from command line:
 	and by default undefined will be assigned as a value for the created memory
  * then in execution phase line by line execution occurs and actual value of the code will be assigned 
 	to the memory by overriding the undefined value
+#] errors:
+	1] RefrenceError: a is not defined [without creating a memory, if you try to access the memory]
+	2] RefrenceError: identifier a can't access before initialization [if you try to access let and const veriables before initialization ]
+	3] syntaxError : 
+			1}a is already been created [if you try to create 2 differenrt memories with same name]
+			2} assignment to const veriable[if you try to override the value of const veriable]
+	4] TypeError : missing initializer [if you try to declare const vriables without initialization]
+
+#Function execution in memory:
+		it is similer to global execution in memory but, whenevr js_engine reads invocation symbol i.e,"()" 
+		it is going to create a separate meory called local memory. And in call stack function execution context will be derived on top of global execution contex
+		after execution of function, function execution context will be removed/poped from the call stack
+	
 	
 #] callback functions:
 	passing a function reference to other function and invocking the same inside the other function is called callback function
