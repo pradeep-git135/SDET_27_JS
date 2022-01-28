@@ -343,8 +343,14 @@ note:
 
 
 
-webdriverIO :
+webdriverIO :  
+	1]open your project workspace in vscode
+	2]click on terminal==> new terminal
+	3] in powershell type cmd : nmp init -y (this will add package.json file in your project)
+	4] type cmd : npm init wdio .  (node_modules in your project)
+	5]go for default installation
 
+finally run cmd : npx wdio wdio.conf.js / npm run wdio
 
 
 
