@@ -1,4 +1,5 @@
 describe('hook1', function() {
+    //hooks
     it('testScript1', () => {
         console.log("tc01");
     });

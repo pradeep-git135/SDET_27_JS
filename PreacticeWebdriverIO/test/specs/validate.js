@@ -1,7 +1,6 @@
 //navigate to any e commerse application and i will validate the title of the page
 
 var assert = require('chai').assert
-
 var expect = require('chai').expect
 var should = require('chai').should()
 
