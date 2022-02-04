@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "intentional fail",
+      "children" : [ {
+        "name" : "should rerun a test at least 3 times",
+        "uid" : "972d13f85723a9f3",
+        "parentUid" : "9e3079034567e12b6c121b9865f6539d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643958175743,
+          "stop" : 1643958175999,
+          "duration" : 256
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome-98.0.4758.81" ]
+      } ],
+      "uid" : "9e3079034567e12b6c121b9865f6539d"
+    }, {
+      "name" : "Invalid Chai property: toBeExisting",
+      "children" : [ {
+        "name" : "should login with valid credentials",
+        "uid" : "1625337a1f5ceb9a",
+        "parentUid" : "1e13846b39867dc0077b0e7a265c8056",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643958180536,
+          "stop" : 1643958186517,
+          "duration" : 5981
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome-98.0.4758.81" ]
+      } ],
+      "uid" : "1e13846b39867dc0077b0e7a265c8056"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

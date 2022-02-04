@@ -1,0 +1,90 @@
+{
+  "uid" : "972d13f85723a9f3",
+  "name" : "should rerun a test at least 3 times",
+  "fullName" : "my flaky app.should rerun a test at least 3 times",
+  "historyId" : "837ffd540b1d05f5fbba9c45e80e4d11",
+  "time" : {
+    "start" : 1643958175743,
+    "stop" : 1643958175999,
+    "duration" : 256
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "intentional fail",
+  "statusTrace" : "AssertionError: intentional fail\n                    at Context.<anonymous> (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\test\\specs\\demoSync.js:34:16)\n                    at Context.executeAsync (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.executeAsync (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\node_modules\\@wdio\\utils\\build\\shim.js:339:39)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "intentional fail",
+    "statusTrace" : "AssertionError: intentional fail\n                    at Context.<anonymous> (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\test\\specs\\demoSync.js:34:16)\n                    at Context.executeAsync (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.executeAsync (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\node_modules\\@wdio\\utils\\build\\shim.js:339:39)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ce9a7b5ab735622",
+      "name" : "Screenshot",
+      "source" : "6ce9a7b5ab735622.png",
+      "type" : "image/png",
+      "size" : 6535
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my flaky app"
+  }, {
+    "name" : "testClass",
+    "value" : "my flaky app"
+  }, {
+    "name" : "testMethod",
+    "value" : "should rerun a test at least 3 times"
+  }, {
+    "name" : "package",
+    "value" : "my flaky app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6020ee54fd34051d",
+      "status" : "broken",
+      "statusDetails" : "intentional fail",
+      "time" : {
+        "start" : 1643957764325,
+        "stop" : 1643957764343,
+        "duration" : 18
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "972d13f85723a9f3.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

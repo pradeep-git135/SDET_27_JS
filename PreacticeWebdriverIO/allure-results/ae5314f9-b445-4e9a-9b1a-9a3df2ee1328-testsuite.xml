@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643958175739' stop='1643958176000'>
+    <name>my flaky app</name>
+    <title>my flaky app</title>
+    <test-cases>
+        <test-case start='1643958175743' status='broken' stop='1643958175999'>
+            <name>should rerun a test at least 3 times</name>
+            <title>should rerun a test at least 3 times</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='71837268-1935-4ca8-a461-3d53f01a18c5-attachment.png' type='image/png' size='6535'/>
+            </attachments>
+            <failure>
+                <message>intentional fail</message>
+                <stack-trace>AssertionError: intentional fail
+                    at Context.&lt;anonymous> (C:\Users\Pradeep\Desktop\JS_SDET27\PreacticeWebdriverIO\test\specs\demoSync.js:34:16)
+                    at Context.executeAsync (C:\Users\Pradeep\Desktop\JS_SDET27\PreacticeWebdriverIO\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.executeAsync (C:\Users\Pradeep\Desktop\JS_SDET27\PreacticeWebdriverIO\node_modules\@wdio\utils\build\shim.js:339:39)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should rerun a test at least 3 times",
+    "uid" : "972d13f85723a9f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1643958175743,
+      "stop" : 1643958175999,
+      "duration" : 256
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "1625337a1f5ceb9a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1643958180536,
+      "stop" : 1643958186517,
+      "duration" : 5981
+    },
+    "flaky" : true,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  }, {
+    "name" : "login to v_tiger using valid credentials",
+    "uid" : "53cec7ecee307dd1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643958190789,
+      "stop" : 1643958195743,
+      "duration" : 4954
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome-98.0.4758.81" ]
+  } ]
+}

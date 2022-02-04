@@ -1,0 +1,31 @@
+[ {
+  "uid" : "972d13f85723a9f3",
+  "name" : "should rerun a test at least 3 times",
+  "time" : {
+    "start" : 1643958175743,
+    "stop" : 1643958175999,
+    "duration" : 256
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1625337a1f5ceb9a",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1643958180536,
+    "stop" : 1643958186517,
+    "duration" : 5981
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "53cec7ecee307dd1",
+  "name" : "login to v_tiger using valid credentials",
+  "time" : {
+    "start" : 1643958190789,
+    "stop" : 1643958195743,
+    "duration" : 4954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

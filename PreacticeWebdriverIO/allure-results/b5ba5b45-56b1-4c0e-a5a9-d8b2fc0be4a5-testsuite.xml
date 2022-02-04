@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643958180535' stop='1643958186519'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1643958180536' status='broken' stop='1643958186517'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f8388216-79e4-43c2-a2ab-0b1f24482c20-attachment.png' type='image/png' size='70127'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toBeExisting</message>
+                <stack-trace>Error: Invalid Chai property: toBeExisting
+                    at Object.proxyGetter [as get] (C:\Users\Pradeep\Desktop\JS_SDET27\PreacticeWebdriverIO\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Pradeep\Desktop\JS_SDET27\PreacticeWebdriverIO\test\specs\example.e2e.js:9:44)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

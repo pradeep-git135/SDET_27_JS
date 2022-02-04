@@ -1,0 +1,90 @@
+{
+  "uid" : "1625337a1f5ceb9a",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "c99b07b4e5d7ed2c321fe3c3fb483d3b",
+  "time" : {
+    "start" : 1643958180536,
+    "stop" : 1643958186517,
+    "duration" : 5981
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid Chai property: toBeExisting",
+  "statusTrace" : "Error: Invalid Chai property: toBeExisting\n                    at Object.proxyGetter [as get] (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at Context.<anonymous> (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\test\\specs\\example.e2e.js:9:44)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Invalid Chai property: toBeExisting",
+    "statusTrace" : "Error: Invalid Chai property: toBeExisting\n                    at Object.proxyGetter [as get] (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at Context.<anonymous> (C:\\Users\\Pradeep\\Desktop\\JS_SDET27\\PreacticeWebdriverIO\\test\\specs\\example.e2e.js:9:44)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d9c1b52e203ddcd3",
+      "name" : "Screenshot",
+      "source" : "d9c1b52e203ddcd3.png",
+      "type" : "image/png",
+      "size" : 70127
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26fc58e9a086f08e",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toBeExisting",
+      "time" : {
+        "start" : 1643957769656,
+        "stop" : 1643957775554,
+        "duration" : 5898
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1625337a1f5ceb9a.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

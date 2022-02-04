@@ -18,16 +18,25 @@ class A {
         this.#data = newValue
     }
 
-    static display() {
+    static display1() {
         console.log("display method");
     }
-   static display(obj_ref, msg){
-        console.log(obj_ref.a);
-        console.log(A.b);
-        console.log(msg);
+   static display2(){
+       //this.nonStaticmethod()   //typeError: not a function
+       A.display1()
+        // console.log(obj_ref.a);
+        // console.log(A.b);
+        // console.log(msg);
+
+
+    }
+    nonStaticmethod(){
+        A.display2()
+        console.log("it is a non static method");
     }
 }
 var obj_a = new A();
+// A.display2()
 
 // console.log(obj_a.value1);
 
@@ -63,12 +72,20 @@ class B extends A {
     z = "data"
     
    static displayParentMethod(){
-        //super.display(obj_b,"info")
+        super.display2()
+        // super.nonStaticmethod()     //typeError : not a fxn
         console.log("this method is from class b");
     }
+    anotherNonStaticmethod(){
+        super.nonStaticmethod()
+    }
+
 }
+
+// B.displayParentMethod()
 module.exports = new B()
-// var obj_b = new B("info1", "info2")
+var obj_b = new B()
+obj_b.anotherNonStaticmethod()
 
 // B.displayParentMethod()
 

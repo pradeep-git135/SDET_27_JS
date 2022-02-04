@@ -1,0 +1,71 @@
+{
+  "uid" : "9f3cc10ca3ab790a",
+  "name" : "login to v_tiger using valid credentials",
+  "fullName" : "login.login to v_tiger using valid credentials",
+  "historyId" : "52f12d34f3b57ace46ea9593c98e7cf5",
+  "time" : {
+    "start" : 1643957779498,
+    "stop" : 1643957784193,
+    "duration" : 4695
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3263bf09df8850",
+      "name" : "Screenshot",
+      "source" : "c3263bf09df8850.png",
+      "type" : "image/png",
+      "size" : 103411
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "testMethod",
+    "value" : "login to v_tiger using valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.81"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f3cc10ca3ab790a.json",
+  "parameterValues" : [ "chrome-98.0.4758.81" ]
+}

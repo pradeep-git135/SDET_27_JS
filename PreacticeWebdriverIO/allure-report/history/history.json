@@ -1,0 +1,61 @@
+{
+  "52f12d34f3b57ace46ea9593c98e7cf5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53cec7ecee307dd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643958190789,
+        "stop" : 1643958195743,
+        "duration" : 4954
+      }
+    } ]
+  },
+  "c99b07b4e5d7ed2c321fe3c3fb483d3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1625337a1f5ceb9a",
+      "status" : "broken",
+      "statusDetails" : "Invalid Chai property: toBeExisting",
+      "time" : {
+        "start" : 1643958180536,
+        "stop" : 1643958186517,
+        "duration" : 5981
+      }
+    } ]
+  },
+  "837ffd540b1d05f5fbba9c45e80e4d11" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "972d13f85723a9f3",
+      "status" : "broken",
+      "statusDetails" : "intentional fail",
+      "time" : {
+        "start" : 1643958175743,
+        "stop" : 1643958175999,
+        "duration" : 256
+      }
+    } ]
+  }
+}

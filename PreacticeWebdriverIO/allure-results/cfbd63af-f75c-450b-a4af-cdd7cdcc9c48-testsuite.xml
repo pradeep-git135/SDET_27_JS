@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643958190788' stop='1643958195744'>
+    <name>login</name>
+    <title>login</title>
+    <test-cases>
+        <test-case start='1643958190789' status='passed' stop='1643958195743'>
+            <name>login to v_tiger using valid credentials</name>
+            <title>login to v_tiger using valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ce9f14b3-813f-464e-b4da-c494337e94d3-attachment.png' type='image/png' size='103365'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

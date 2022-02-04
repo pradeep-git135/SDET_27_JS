@@ -1,0 +1,53 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "my flaky app",
+    "children" : [ {
+      "name" : "should rerun a test at least 3 times",
+      "uid" : "972d13f85723a9f3",
+      "parentUid" : "f26a76dc5371965e7304244547024fb8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1643958175743,
+        "stop" : 1643958175999,
+        "duration" : 256
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome-98.0.4758.81" ]
+    } ],
+    "uid" : "f26a76dc5371965e7304244547024fb8"
+  }, {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "1625337a1f5ceb9a",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "broken",
+      "time" : {
+        "start" : 1643958180536,
+        "stop" : 1643958186517,
+        "duration" : 5981
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome-98.0.4758.81" ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  }, {
+    "name" : "login",
+    "children" : [ {
+      "name" : "login to v_tiger using valid credentials",
+      "uid" : "53cec7ecee307dd1",
+      "parentUid" : "75d811c673dc5e97a5ea7e2a442ebd1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643958190789,
+        "stop" : 1643958195743,
+        "duration" : 4954
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-98.0.4758.81" ]
+    } ],
+    "uid" : "75d811c673dc5e97a5ea7e2a442ebd1a"
+  } ]
+}
